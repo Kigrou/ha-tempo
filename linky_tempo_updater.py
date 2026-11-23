@@ -224,6 +224,7 @@ def main():
                 "metadata": {
                     "statistic_id": stat_id,
                     "source": source_domain,
+                    "has_mean": False,
                     "mean_type": 0,
                     "unit_class": None if "cout" in k else "energy",
                     "has_sum": True,
